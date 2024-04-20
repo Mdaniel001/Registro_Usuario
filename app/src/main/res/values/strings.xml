@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Actividad4</string>
+    <string name="tvTitulo">Registro de Usuarios </string>
+    <string name="etDocumentos">Ingrese  Documento </string>
+    <string name="etNombres">Ingrese Nombres </string>
+    <string name="etApellidos">Ingrese Apellidos</string>
+    <string name="etUsuario">Asigne Usuario</string>
+    <string name="etContra">Asigne Contraseña</string>
+    <string name="btnRegistrar">Registrar +</string>
+    <string name="btnBuscarPorUsuario">Buscar Por Usuario</string>
+    <string name="etBuscarPorUsuario">Digite Usuario Asignado</string>
+    <string name="btnListar"> Click para Listar</string>
+    <string name="btnBuscarPorDocumento">Buscar por Documento</string>
+    <string name="etBuscarPorDocumento">Digite Documento del  Usuario</string>
+    <string name="btnActualizarUsuario">Actualizar Usuario</string>
+    <string name="etActualizarDocumento">Digite Documento del Usuario</string>
+    <string name="tvConsultas">Buscar y Eliminar Usuarios</string>
+    <string name="btnLimpiar">Limpiar</string>
+    <string name="btnCargarUsuario">Cargar Usuario</string>
+    <string name="etLimpiar">Digite Documeto del Usuario </string>
+</resources>

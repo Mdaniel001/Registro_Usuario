@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#D5D8DC "
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:id="@+id/tvTitulo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:foregroundTint="#882626"
+        android:padding="4dp"
+        android:text="@string/tvTitulo"
+        android:textAlignment="center"
+        android:textColor="#FF5722"
+        android:textSize="24sp" />
+
+
+    <EditText
+        android:id="@+id/etDocumento"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/etDocumentos"
+        android:inputType="number"
+        android:minHeight="48dp"
+        android:textColorHint="#3F51B5"
+        android:textSize="15sp" />
+
+    <EditText
+        android:id="@+id/etNombres"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/etNombres"
+        android:inputType="text"
+        android:minHeight="48dp"
+        android:textColorHint="#3F51B5"
+        android:textSize="15sp" />
+
+    <EditText
+        android:id="@+id/etApellidos"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/etApellidos"
+        android:inputType="text"
+        android:minHeight="48dp"
+        android:textColorHint="#3F51B5"
+        android:textSize="15sp" />
+
+
+    <EditText
+        android:id="@+id/etUsuario"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/etUsuario"
+        android:inputType="text"
+        android:minHeight="48dp"
+        android:textColorHint="#4CAF50"
+        android:textSize="15sp" />
+
+    <EditText
+        android:id="@+id/etContra"
+        android:layout_width="match_parent"
+        android:layout_height="51dp"
+        android:ems="10"
+        android:hint="@string/etContra"
+        android:inputType="textPassword"
+        android:textColorHint="#4CAF50"
+        android:textSize="15sp" />
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="59dp">
+
+        <Button
+            android:id="@+id/btnRegistar"
+            android:layout_width="205dp"
+            android:layout_height="match_parent"
+            android:text="@string/btnRegistrar"
+            android:textColor="#FFC107"
+            android:textColorHint="#510F0F" />
+
+        <Button
+            android:id="@+id/btnListar"
+            android:layout_width="207dp"
+            android:layout_height="match_parent"
+            android:text="@string/btnListar"
+            android:textColor="#CDDC39" />
+
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/btnActualizarUsuario"
+            android:layout_width="206dp"
+            android:layout_height="wrap_content"
+            android:text="@string/btnActualizarUsuario" />
+
+        <EditText
+            android:id="@+id/etActualizarUsuario"
+            android:layout_width="207dp"
+            android:layout_height="match_parent"
+            android:ems="10"
+            android:hint="@string/etActualizarDocumento"
+            android:textSize="13sp" />
+    </TableRow>
+
+    <TextView
+        android:id="@+id/tvConsultas"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/tvConsultas"
+        android:textAlignment="center"
+        android:textColor="#E91E63" />
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="59dp">
+
+        <Button
+            android:id="@+id/btnBuscarPorDocumento"
+            android:layout_width="204dp"
+            android:layout_height="match_parent"
+            android:text="@string/btnBuscarPorDocumento"
+            android:textColor="#CDDC39"
+            android:textColorHighlight="#FFFFFF"
+            android:textColorLink="#4CAF50" />
+
+        <EditText
+            android:id="@+id/etBuscarPorDocumento"
+            android:layout_width="199dp"
+            android:layout_height="59dp"
+            android:ems="10"
+            android:hint="@string/btnBuscarPorDocumento"
+            android:textSize="13sp" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="58dp">
+
+        <Button
+            android:id="@+id/btnBuscarPorUsuario"
+            android:layout_width="203dp"
+            android:layout_height="58dp"
+            android:text="@string/btnBuscarPorUsuario" />
+
+        <EditText
+            android:id="@+id/etBuscarPorUsuario"
+            android:layout_width="201dp"
+            android:layout_height="58dp"
+            android:ems="10"
+            android:hint="@string/etBuscarPorUsuario"
+            android:textSize="13sp" />
+    </TableRow>
+
+    <ListView
+        android:id="@+id/lvLista"
+        android:layout_width="match_parent"
+        android:layout_height="243dp"
+        android:minHeight="48dp" />
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="65dp">
+
+        <Button
+            android:id="@+id/btnLimpiar"
+            android:layout_width="wrap_content"
+            android:layout_height="65dp"
+            android:text="@string/btnLimpiar"
+            android:textColor="#CDDC39" />
+
+        <Button
+            android:id="@+id/btnCargarUsuario"
+            android:layout_width="150dp"
+            android:layout_height="65dp"
+            android:text="@string/btnCargarUsuario" />
+
+        <EditText
+            android:id="@+id/etLimpiar"
+            android:layout_width="162dp"
+            android:layout_height="65dp"
+            android:ems="10"
+            android:hint="@string/etLimpiar"
+            android:textSize="13sp" />
+    </TableRow>
+
+</LinearLayout>
